@@ -17,7 +17,7 @@
         android:layout_marginEnd="120dp"
         android:text="@string/Titulo2"
         android:textColor="#1465C0"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -25,11 +25,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/CodigoIngresado"
+        android:id="@+id/codigo"
         android:layout_width="189dp"
         android:layout_height="48dp"
         android:layout_marginStart="102dp"
-        android:layout_marginTop="131dp"
+        android:layout_marginTop="132dp"
         android:layout_marginEnd="100dp"
         android:background="#E3F2FD"
         android:ems="10"
@@ -37,12 +37,12 @@
         android:inputType="number"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Titulo2" />
 
     <TextView
-        android:id="@+id/CorreoIngresado"
+        android:id="@+id/correo"
         android:layout_width="190dp"
         android:layout_height="48dp"
         android:layout_marginStart="100dp"
@@ -55,12 +55,12 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CodigoIngresado" />
+        app:layout_constraintTop_toBottomOf="@+id/tvDatos" />
 
     <TextView
         android:id="@+id/NotaDefinitiva"
-        android:layout_width="116dp"
-        android:layout_height="49dp"
+        android:layout_width="190dp"
+        android:layout_height="48dp"
         android:layout_marginStart="147dp"
         android:layout_marginTop="84dp"
         android:layout_marginEnd="148dp"
@@ -71,7 +71,7 @@
         android:minHeight="48dp"
         android:text="Nota"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/CorreoIngresado" />
 

@@ -8,20 +8,16 @@
     tools:context=".MainActivity" >
 
     <Button
-        android:id="@+id/botonSeguir"
+        android:id="@+id/next"
         android:layout_width="189dp"
         android:layout_height="59dp"
-        android:layout_marginStart="159dp"
-        android:layout_marginTop="624dp"
-        android:layout_marginEnd="159dp"
-        android:layout_marginBottom="65dp"
         android:text="Seguir"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.528"
         app:rippleColor="#833737"
         app:strokeColor="#AC798A" />
 </androidx.constraintlayout.widget.ConstraintLayout>
